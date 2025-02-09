@@ -1,0 +1,35 @@
+/*
+filename: style.css
+author: Le Quang Dinh, Bui Minh Duc, Nguyen Xuan Nang Mai
+created: 02/2025
+last modified: 02/2025
+description: Project Part 1
+*/
+
+h2 {
+    color:#f38526;
+}
+
+button {
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+#to-apply {
+    background-color: white; 
+    border: 2px solid #f38526;
+  }
+  
+#to-apply:hover {
+    background-color: #f38526;
+    color: white;
+  }
+   
