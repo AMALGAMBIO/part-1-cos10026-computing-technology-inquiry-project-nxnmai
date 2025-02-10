@@ -1,13 +1,40 @@
 /*
 filename: style.css
 author: Le Quang Dinh, Bui Minh Duc, Nguyen Xuan Nang Mai
-created: 02/2025
+created: 08/02/2025
 last modified: 02/2025
 description: Project Part 1
 */
 
-h2 {
-    color:#f38526;
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.jobs {
+  display: flex;
+  align-items: flex-start; /* Aligns items at the top */
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.jobs-content {
+  flex: 1; /* Takes up remaining space */
+  padding-right: 20px; /* Creates space between content and aside */
+}
+
+aside {
+  text-align: center;
+  position: sticky;
+  width: 300px;
+  top: 100px; /* Starts sticking */
+  background-color: rgb(251, 207, 172);
+  padding: 20px;
+  margin-left: auto; /* Moves aside to the right */
+}
+
+h2, em {
+  color:#ff7e0e;
 }
 
 button {
@@ -25,11 +52,11 @@ button {
   
 #to-apply {
     background-color: white; 
-    border: 2px solid #f38526;
+    border: 2px solid #ff7e0e;
   }
   
 #to-apply:hover {
-    background-color: #f38526;
+    background-color: #ff7e0e;
     color: white;
   }
-   
+
