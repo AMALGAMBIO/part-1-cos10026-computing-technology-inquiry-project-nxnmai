@@ -29,12 +29,41 @@ aside {
   width: 300px;
   top: 100px; /* Starts sticking */
   background-color: rgb(251, 207, 172);
-  padding: 20px;
+  padding: 5px;
   margin-left: auto; /* Moves aside to the right */
 }
 
 h2, em {
-  color:#ff7e0e;
+  color: #ff5b0f;
+}
+
+.menu {
+  text-decoration: none;
+  padding: 0.2em 0.6em;
+  border: 2px solid #ff5b0f;
+}
+
+footer {
+  background-image: url('footer.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70px;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px
+}
+
+footer a {
+  text-decoration: underline;
+  color: white;
+}
+
+footer li {
+  list-style-type: none;
 }
 
 button {
@@ -52,11 +81,15 @@ button {
   
 #to-apply {
     background-color: white; 
-    border: 2px solid #ff7e0e;
+    border: 2px solid #ff5b0f;
   }
   
 #to-apply:hover {
-    background-color: #ff7e0e;
+    background-color: #ff5b0f;
     color: white;
   }
 
+.logo {
+  width: 100px;
+  height: auto;
+}
