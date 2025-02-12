@@ -6,7 +6,7 @@ last modified: 02/2025
 description: Project Part 1
 */
 
-body {
+* {
   font-family: 'Inter', sans-serif;
 }
 
@@ -26,11 +26,19 @@ body {
 aside {
   text-align: center;
   position: sticky;
-  width: 300px;
-  top: 100px; /* Starts sticking */
-  background-color: rgb(251, 207, 172);
-  padding: 5px;
+  width: 25%;
+  top: 180px; /* Starts sticking */
+  background-color: rgba(255, 211, 175, 0.9);
+  border: 6px inset #ff5b0f;
+  border-radius: 12px;
+  padding: 4px;
   margin-left: auto; /* Moves aside to the right */
+}
+
+h1 {
+  text-decoration: overline underline;
+  text-decoration-color: #ff5b0f;
+  font: 2.6em 'Verdana', sans-serif;
 }
 
 h2, em {
@@ -53,7 +61,7 @@ footer {
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 20px
 }
 
