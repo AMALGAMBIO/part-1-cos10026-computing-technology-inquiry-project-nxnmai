@@ -13,16 +13,20 @@
 </head>
 <!-- body -->
 <body>
-    <!-- Header -->
-    <nav class="menu">
-        <a href="index.html"><img src="styles/logo.png" class="logo"></a>
-        <a href="index.html">Home</a>
-        <a href="jobs.html">Job Description</a>
-        <a href="apply.html">Job Application</a>
-        <a href="about.html">About Us</a>
-    </nav>
+    <!-- Menu -->
+    <div class="banner">
+        <nav class="menu">
+            <img src="styles/logo.png" class="logo" alt="TechCareers Logo">
+            <ul>
+                <li><a href="#">HOMEPAGE</a></li>
+                <li><a href="#">JOB DESCRIPTIONS</a></li>
+                <li><a href="#">APPLICATION</a></li>
+                <li><a href="#">ABOUT US</a></li>
+            </ul>
+        </nav>
+    </div>
 
-    <!-- Page Container -->
+    <!-- Jobs.html Page Container -->
     <div class="jobs">
 
         <!-- Main Content Container -->
@@ -32,8 +36,10 @@
 
             <!-- Frontend Developer Job Description -->
             <section id="frontend">
+                <!-- Job Title -->
                 <h2>Frontend Developer (Reference number: FTD23)</h2>
-                    
+                
+                <!-- Job Information -->
                 <h3>Brief Description:</h3>
                 <p>We are looking for a Frontend Developer to join our team and help build intuitive, responsive, and high-performance web applications. The ideal candidate will have a strong grasp of modern frontend technologies, UI/UX principles, and the ability to work effectively in a collaborative environment.</p>
                     
@@ -43,41 +49,43 @@
                 <h3>Reporting To:</h3>
                 <p>Lead Frontend Developer.</p>
                     
-                <h3>Key Responsibilities:</h3>
                 <!-- Responsibilities list -->
-                <ul>
-                    <li><strong>Frontend Development:</strong></li>
+                <section class="responsibilities">
+                    <h3>Key Responsibilities:</h3>
                     <ul>
-                        <li>Develop and maintain responsive web applications using HTML, CSS, and JavaScript.</li>
-                        <li>Implement interactive UI components using React.js, Vue.js, or Angular.</li>
-                        <li>Optimize website performance for speed and scalability.</li>
+                        <li><strong>Frontend Development:</strong></li>
+                        <ul>
+                            <li>Develop and maintain responsive web applications using HTML, CSS, and JavaScript.</li>
+                            <li>Implement interactive UI components using React.js, Vue.js, or Angular.</li>
+                            <li>Optimize website performance for speed and scalability.</li>
+                        </ul>
+                        <li><strong>Collaboration &#38; UI/UX Integration:</strong></li>
+                        <ul>
+                            <li>Work closely with UI/UX designers to translate wireframes and mockups into functional web pages.</li>
+                            <li>Ensure a seamless user experience (UX) with high attention to accessibility and usability.</li>
+                        </ul>
+                        <li><strong>Testing &#38; Debugging:</strong></li>
+                        <ul>
+                            <li>Conduct cross-browser compatibility testing (Chrome, Firefox, Edge, Safari, etc.).</li>
+                            <li>Identify and fix frontend bugs using debugging tools like Chrome DevTools.</li>
+                            <li>Write unit tests (Jest, Mocha) and end-to-end tests (Cypress, Selenium).</li>
+                        </ul>
+                        <li><strong>Version Control &#38; Deployment:</strong></li>
+                        <ul>
+                            <li>Maintain code repositories using Git (GitHub, GitLab, Bitbucket).</li>
+                            <li>Work with CI/CD pipelines for automated deployments.</li>
+                        </ul>
+                        <li><strong>Optimization &#38; Performance Monitoring:</strong></li>
+                        <ul>
+                            <li>Improve frontend performance by optimizing DOM rendering, lazy loading, and code splitting.</li>
+                            <li>Monitor and improve Core Web Vitals for SEO and performance.</li>
+                        </ul>
                     </ul>
-                    <li><strong>Collaboration &#38; UI/UX Integration:</strong></li>
-                    <ul>
-                        <li>Work closely with UI/UX designers to translate wireframes and mockups into functional web pages.</li>
-                        <li>Ensure a seamless user experience (UX) with high attention to accessibility and usability.</li>
-                    </ul>
-                    <li><strong>Testing &#38; Debugging:</strong></li>
-                    <ul>
-                        <li>Conduct cross-browser compatibility testing (Chrome, Firefox, Edge, Safari, etc.).</li>
-                        <li>Identify and fix frontend bugs using debugging tools like Chrome DevTools.</li>
-                        <li>Write unit tests (Jest, Mocha) and end-to-end tests (Cypress, Selenium).</li>
-                    </ul>
-                    <li><strong>Version Control &#38; Deployment:</strong></li>
-                    <ul>
-                        <li>Maintain code repositories using Git (GitHub, GitLab, Bitbucket).</li>
-                        <li>Work with CI/CD pipelines for automated deployments.</li>
-                    </ul>
-                    <li><strong>Optimization &#38; Performance Monitoring:</strong></li>
-                    <ul>
-                        <li>Improve frontend performance by optimizing DOM rendering, lazy loading, and code splitting.</li>
-                        <li>Monitor and improve Core Web Vitals for SEO and performance.</li>
-                    </ul>
-                </ul>
+                </section>
 
                 <h3>Required Qualifications, Skills, Knowledge, and Attributes:</h3>
                 <!-- Essential Section -->
-                <section id="frontend-essential">
+                <section class="essential">
                     <h3><u>Essential</u></h3>
                     <ol>
                         <li><strong>Education &#38; Experience:</strong></li>
@@ -102,8 +110,9 @@
                         </ul>
                     </ol>
                 </section>
+                <br>
                 <!-- Preferable Section -->
-                <section id="frontend-preferable">
+                <section class="preferable">
                     <h3><u>Preferable (Nice to have):</u></h3>
                     <ol>
                         <li>Experience with TypeScript.</li>
@@ -117,8 +126,10 @@
 
             <!-- AI Engineer Job Description -->
             <section id="ai">
+                <!-- Job Title -->
                 <h2>AI Engineer (Reference number: AIE45)</h2>
 
+                <!-- Job Information -->
                 <h3>Brief Description:</h3>
                 <p>We are seeking a skilled AI Engineer to design, develop, and implement cutting-edge artificial intelligence solutions that address complex real-world challenges. The ideal candidate will possess a robust understanding of machine learning algorithms, deep learning architectures, and natural language processing techniques, coupled with hands-on experience in deploying AI models in production environments.</p>
 
@@ -128,39 +139,41 @@
                 <h3>Reporting To:</h3>
                 <p>Director of Artificial Intelligence.</p>
 
-                <h3>Key Responsibilities:</h3>
                 <!-- Responsibilities list -->
-                <ul>
-                    <li><strong>AI Solution Development:</strong></li>
+                <section class="responsibilities">
+                    <h3>Key Responsibilities:</h3>
                     <ul>
-                        <li>Design and implement AI models and algorithms to solve business problems and enhance customer experiences.</li>
-                        <li>Collaborate with cross-functional teams to integrate AI capabilities into existing products and services.</li>
+                        <li><strong>AI Solution Development:</strong></li>
+                        <ul>
+                            <li>Design and implement AI models and algorithms to solve business problems and enhance customer experiences.</li>
+                            <li>Collaborate with cross-functional teams to integrate AI capabilities into existing products and services.</li>
+                        </ul>
+                        <li><strong>Data Management:</strong></li>
+                        <ul>
+                            <li>Collect, preprocess, and analyze large datasets to train and validate AI models.</li>
+                            <li>Ensure data quality and integrity throughout the AI development lifecycle.</li>
+                        </ul>
+                        <li><strong>Model Deployment and Maintenance:</strong></li>
+                        <ul>
+                            <li>Deploy AI models into production environments, ensuring scalability and reliability.</li>
+                            <li>Monitor model performance and implement updates as necessary to maintain accuracy and efficiency.</li>
+                        </ul>
+                        <li><strong>Research and Innovation:</strong></li>
+                        <ul>
+                            <li>Stay abreast of the latest developments in AI and machine learning technologies.</li>
+                            <li>Propose and implement innovative solutions to improve existing processes and products.</li>
+                        </ul>
+                        <li><strong>Documentation and Reporting:</strong></li>
+                        <ul>
+                            <li>Maintain comprehensive documentation of AI models, algorithms, and processes.</li>
+                            <li>Prepare reports and presentations to communicate findings and recommendations to stakeholders.</li>
+                        </ul>
                     </ul>
-                    <li><strong>Data Management:</strong></li>
-                    <ul>
-                        <li>Collect, preprocess, and analyze large datasets to train and validate AI models.</li>
-                        <li>Ensure data quality and integrity throughout the AI development lifecycle.</li>
-                    </ul>
-                    <li><strong>Model Deployment and Maintenance:</strong></li>
-                    <ul>
-                        <li>Deploy AI models into production environments, ensuring scalability and reliability.</li>
-                        <li>Monitor model performance and implement updates as necessary to maintain accuracy and efficiency.</li>
-                    </ul>
-                    <li><strong>Research and Innovation:</strong></li>
-                    <ul>
-                        <li>Stay abreast of the latest developments in AI and machine learning technologies.</li>
-                        <li>Propose and implement innovative solutions to improve existing processes and products.</li>
-                    </ul>
-                    <li><strong>Documentation and Reporting:</strong></li>
-                    <ul>
-                        <li>Maintain comprehensive documentation of AI models, algorithms, and processes.</li>
-                        <li>Prepare reports and presentations to communicate findings and recommendations to stakeholders.</li>
-                    </ul>
-                </ul>
+                </section>
 
                 <h3>Required Qualifications, Skills, Knowledge, and Attributes:</h3>
                 <!-- Essential Section -->
-                <section id="ai-essential">
+                <section class="essential">
                     <h3><u>Essential</u></h3>
                     <ol>
                         <li><strong>Education &#38; Experience:</strong></li>
@@ -183,8 +196,9 @@
                         </ul>
                     </ol>
                 </section>
+                <br>
                 <!-- Preferable Section -->
-                <section id="ai-preferable">
+                <section class="preferable">
                     <h3><u>Preferable (Nice to have):</u></h3>
                     <ol>
                         <li>Master&#39;s or Ph.D. in a relevant field.</li>
@@ -197,12 +211,12 @@
                 </section>
             </section>
 
-            <!-- Go To apply.html Button -->
+            <!-- apply.html Button -->
             <a href="apply.html">
                 <button id="to-apply">Apply Now!</button>
             </a>
         </div>
-        <!-- Benefits Aside -->
+        <!-- Aside "Benefits" -->
         <aside>
             <h3>BENEFITS</h3>
             <p><em>What&#39;s attractive about working at TechCareers?</em></p>
@@ -216,10 +230,10 @@
             <p>We support monthly lunch money for all employees along with full allowances for travel and business-related expenses.</p>
         </aside>
     </div>
-    <!-- Company logo + contact information -->
+    <!-- Footer -->
     <footer>
         <!-- Company Logo-->
-        <img src="styles/logo.png" class="logo">
+        <img src="styles/logo.png" class="logo" alt="TechCareers Logo">
         <!-- Contact Information -->
         <ul>
             <li>Registered Office: <a href="">TechCareers Building</a></li>

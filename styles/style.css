@@ -6,7 +6,7 @@ last modified: 19/02/2025
 description: Project Part 1
 */
 
-* {
+body {
   font-family: 'Inter', sans-serif;
 }
 
@@ -23,6 +23,66 @@ description: Project Part 1
   padding-right: 20px; /* Creates space between content and aside */
 }
 
+.jobs h1 {
+  text-decoration: overline underline;
+  text-decoration-color: #ff5b0f;
+  font: 2.6em 'Verdana', sans-serif;
+}
+
+.jobs h2, em {
+  color: #ff5b0f;
+}
+
+.jobs h2 {
+  font-size: 2em;
+}
+
+.menu {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 30px;
+  position: relative;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #ff5b0f;
+  font-size: 18px;
+}
+
+.menu ul li::after {
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #ff5b0f;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.menu ul li:hover{
+  transform: scale(1.2);
+}
+
+.menu ul li:hover::after {
+  width: 100%;
+}
+
+.logo {
+  width: 120px;
+  cursor: pointer;
+}
+
 aside {
   text-align: center;
   position: sticky;
@@ -33,16 +93,6 @@ aside {
   border-radius: 12px;
   padding: 4px;
   margin-left: auto; /* Moves aside to the right */
-}
-
-.jobs h1 {
-  text-decoration: overline underline;
-  text-decoration-color: #ff5b0f;
-  font: 2.6em 'Verdana', sans-serif;
-}
-
-.jobs h2, em {
-  color: #ff5b0f;
 }
 
 footer {
@@ -68,15 +118,20 @@ footer li {
   list-style-type: none;
 }
 
-.menu {
-  text-decoration: none;
-  padding: 0.2em 0.6em;
-  border: 2px solid #ff5b0f;
+.responsibilities, .essential {
+  padding: 2px 10px 2px 10px;
+  width: fit-content;
 }
 
-.logo {
-  width: 100px;
-  height: auto;
+.responsibilities {
+  border: 5px hidden;
+  border-radius: 8px;
+  background-color: rgba(255, 211, 175, 0.9);
+}
+
+.essential {
+  border: 5px double #ff5b0f;
+  border-radius: 4px;
 }
   
 #to-apply {
