@@ -2,7 +2,7 @@
 filename: style.css
 author: Le Quang Dinh, Bui Minh Duc, Nguyen Xuan Nang Mai
 created: 08/02/2025
-last modified: 02/2025
+last modified: 19/02/2025
 description: Project Part 1
 */
 
@@ -35,20 +35,14 @@ aside {
   margin-left: auto; /* Moves aside to the right */
 }
 
-h1 {
+.jobs h1 {
   text-decoration: overline underline;
   text-decoration-color: #ff5b0f;
   font: 2.6em 'Verdana', sans-serif;
 }
 
-h2, em {
+.jobs h2, em {
   color: #ff5b0f;
-}
-
-.menu {
-  text-decoration: none;
-  padding: 0.2em 0.6em;
-  border: 2px solid #ff5b0f;
 }
 
 footer {
@@ -74,8 +68,20 @@ footer li {
   list-style-type: none;
 }
 
-button {
-    border: none;
+.menu {
+  text-decoration: none;
+  padding: 0.2em 0.6em;
+  border: 2px solid #ff5b0f;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+  
+#to-apply {
+    background-color: white; 
+    border: 2px solid #ff5b0f;
     color: black;
     padding: 16px 32px;
     text-align: center;
@@ -83,21 +89,11 @@ button {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    transition-duration: 0.4s;
     cursor: pointer;
-  }
-  
-#to-apply {
-    background-color: white; 
-    border: 2px solid #ff5b0f;
-  }
+    transition-duration: 0.6s;
+}
   
 #to-apply:hover {
     background-color: #ff5b0f;
     color: white;
-  }
-
-.logo {
-  width: 100px;
-  height: auto;
 }
