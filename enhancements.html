@@ -4,14 +4,55 @@
 <head>
 	<title>Enhancements</title>
 	<meta charset="utf-8">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content=""> 
-	<meta name="viewport" content="">
-    <!-- CSS style file -->
+	<meta name="description" content="list and describe the enhancements that have been made to the webpages.">
+	<meta name="keywords" content="techniques, enhancements, hover, features, implement, responsive, design">
+	<meta name="author" content="Bui Minh Duc, Le Quang Dinh, Nguyen Xuan Nang Mai"> 
 </head>
 <!-- body -->
 <body>
-
+	<h1>Enhancements</h1>
+	<h2>:hover element on page jobs.html</h2>
+	<ul>
+		<li>This is the <a href="jobs.html#jobs-button">hyperlink</a> to where we applied the hover effect for the button, please click to redirect and see the effects on the button.</li>
+		<li>The button was implemented with animation when our cursor hovers through. When hover, the button will changes the text colour from black to white and also the background colour from white to orange.</li>
+		<li>Instead of just a static button, an interactive hover effect is added. The colour transition improves visual feedback, making the website more dynamic and engaging. Also, users will get a clear indication that the button is interactive, which improves usability.</li>
+		<li>The effect is achieved using CSS :hover with smooth transitions:</li>
+	</ul>
+	<pre>
+		<code>
+			#to-apply {
+				background-color: white; 
+				border: 2px solid #ff5b0f;
+				color: black;
+				padding: 16px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				margin: 4px 2px;
+				cursor: pointer;
+				transition-duration: 0.5s;
+			}
+				
+			#to-apply:hover {
+				background-color: #ff5b0f;
+				color: white;
+			}
+		</code>
+	</pre>
+	<ul>
+		<li>It extends beyond basic HTML and CSS from lectures and tutorials:</li>
+		<ul>
+			<li>Smooth transition effect: the transition-duration: 0.5s; ensures a gradual and visually appealing color change instead of an instant switch.</li>
+			<li>Border styling: the orange border #ff5b0f helps the button stand out.</li>
+			<li>Better UX with cursor feedback: The cursor: pointer; makes it clear that the button is clickable.</li>
+			<li>Custom padding and size: instead of default button styles, the button is designed with padding: 16px 32px; for better visibility and accessbility.</li>
+		</ul>
+		<li>How it supports interactivity and improves UX:</li>
+		<ul>
+			<li>Smooth user experience: The transition effect creates a polished, modern feel.</li>
+			<li>Navigation enhancement: the hyperlink allows users to jump directly to the application page, making navigation more efficient and link the pages together.</li>
+		</ul>
+	</ul>
 </body>
 </html>
