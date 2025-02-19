@@ -6,13 +6,39 @@ last modified: 20/02/2025
 description: Responsive Design for Project Part 1
 */
 
-/* media query for display: over 500px */
-@media screen and (min-width: 500px) {
+/* media query for tablet display: over 500px to 900px */
+@media screen and (min-width: 500px) and (max-width: 900px) {
+    .jobs {
+        padding: 12px;
+    }
 
+    .jobs h1 {
+        font-size: 34px;
+    }
+
+    aside {
+        padding: 2px;
+        top: 140px;
+        border: 2px inset #ff5b0f;
+        border-radius: 8px;
+        width: 30%
+    }
+
+    footer {
+        height: 45px;
+    }
+
+    footer ul {
+        font-size: 13px;
+    }
+
+    footer .logo {
+        width: 90px;
+    }
 }
 
 
-/* media query for display: under 500px */
+/* media query for phone display: under 500px */
 @media screen and (max-width: 500px) {
     .jobs {
         padding: 7px;
